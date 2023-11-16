@@ -1,0 +1,114 @@
+.content-container {
+  width: 100vw;
+  height: 750px;
+}
+.barcode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.barcode-container img {
+  max-width: 198px;
+  max-height: 198px;
+  margin: 0 0 35px 0;
+}
+.barcode-text .ant-typography {
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #232632;
+}
+.barcode-text p {
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #828282;
+}
+.or-continue-with {
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+.or-continue-with:before,
+.or-continue-with:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #ebedf2;
+  margin: auto;
+}
+.another-login-button {
+  margin: 6px 8px 6px 8px;
+  height: 56px;
+  border-radius: 10px;
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  background-color: #ebedf2;
+  color: #232632;
+}
+.login-username,
+.login-password {
+  width: Fill;
+  height: 60px;
+  padding: 0px, 0px, 0px, 8px;
+  border-radius: 10px;
+  border: 2px;
+}
+.login-heading {
+  font-family: Helvetica Neue;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 20px 0 40px 0;
+}
+.forget-password {
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left !important;
+}
+.login-forgot a {
+  color: #7b61ff;
+}
+.login-button {
+  width: 100%;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #7b61ff;
+}
+.no-account-btn {
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #828282;
+}
+.no-account-btn a {
+  color: #7b61ff;
+}
+
+@media only screen and (max-width: 835px) {
+  .content-container {
+    width: 100vw;
+    height: 900px;
+  }
+}

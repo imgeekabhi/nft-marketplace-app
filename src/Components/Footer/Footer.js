@@ -15,32 +15,45 @@ const FooterLayout = () => {
   return (
     <Footer className="footer">
       <Row>
-        <Col span={12} style={{ border: "1px solid black" }}>
-          <div className="col1-heading">
-            <h2>
+        <Col
+          xs={24}
+          sm={24}
+          md={24}
+          lg={12}
+          xl={12}
+          align="middle"
+          span={12}
+          className="col1"
+        >
+          <div className="col1-container">
+            <h2 className="col1-heading">
               Our platform is trusted by millions,& features an portfolio of
               financial product offerings.
             </h2>
-            <a href="mailto:design4me@gmail.com">design4me@gmail.com</a>
-          </div>
-          <div className="col1-input">
-            <a href="#">Subscribe and get news</a>
+            <a className="email-anchor" href="mailto:design4me@gmail.com">
+              design4me@gmail.com
+            </a>
+
+            <a className="subscribe-anchor" href="#">
+              Subscribe and get news
+            </a>
             <Input className="email-input-field" placeholder="Email" />
+
+            <ul className="redirect-links">
+              <li>
+                <a href="#">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#">Term of service</a>
+              </li>
+              <li>
+                <a href="#">Language</a>
+              </li>
+            </ul>
           </div>
-          <ul className="redirect-links">
-            <li>
-              <a href="#">Privacy policy</a>
-            </li>
-            <li>
-              <a href="#">Term of service</a>
-            </li>
-            <li>
-              <a href="#">Language</a>
-            </li>
-          </ul>
         </Col>
-        <Col span={12} className="col2" style={{ border: "1px solid black" }}>
-          <div className="right-col-container">
+        <Col xs={24} sm={24} md={24} lg={12} xl={12} span={12} className="col2">
+          <div className="col2-container">
             <Breadcrumb className="breadcrumb-items">
               <Breadcrumb.Item className="breadcrumb-item">
                 Marketplace
@@ -55,9 +68,9 @@ const FooterLayout = () => {
                 Blog
               </Breadcrumb.Item>
             </Breadcrumb>
-            <ul class="social-links">
+            <ul className="social-links">
               <li>
-                <a class="footer-link" href="#">
+                <a className="footer-link" href="#">
                   <InstagramFilled
                     className="social-icon"
                     name="logo-instagram"
@@ -65,7 +78,7 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a class="footer-link" href="#">
+                <a className="footer-link" href="#">
                   <LinkedinFilled
                     className="social-icon"
                     name="logo-linkedin"
@@ -73,7 +86,7 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a class="footer-link" href="#">
+                <a className="footer-link" href="#">
                   <FacebookFilled
                     className="social-icon"
                     name="logo-facebook"
@@ -81,7 +94,7 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a class="footer-link" href="#">
+                <a className="footer-link" href="#">
                   <TwitterSquareFilled
                     className="social-icon"
                     name="logo-twitter"
@@ -89,12 +102,12 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a class="footer-link" href="#">
+                <a className="footer-link" href="#">
                   <GithubFilled className="social-icon" name="logo-gihub" />
                 </a>
               </li>
               <li>
-                <a class="footer-link" href="#">
+                <a className="footer-link" href="#">
                   <GoogleSquareFilled
                     className="social-icon"
                     name="logo-google"
@@ -102,7 +115,7 @@ const FooterLayout = () => {
                 </a>
               </li>
             </ul>
-            <div className="Copyright">
+            <div className="copyright">
               <p>&copy; 2022 Design4me</p>
             </div>
           </div>
