@@ -1,0 +1,116 @@
+/* marketplace css */
+.marketplce-container {
+  /* border: 1px solid black; */
+  /* width: 100vw; */
+  /* height: 750px; */
+}
+
+/* filter panal css */
+.filter-panel-container {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 120px;
+  border-radius: 6px;
+}
+.filter-icons {
+  height: 24px;
+  width: 24px;
+}
+
+.filter-btn,
+.nft-btn,
+.trending-btn {
+  background-color: #ebedf2;
+  width: 148px;
+  height: 56px;
+  padding: 6px, 8px, 6px, 8px;
+  border-radius: 10px;
+}
+.column-btn,
+.list-btn {
+  width: 56px;
+  height: 56px;
+  padding: 6px, 8px, 6px, 8px;
+  border-radius: 10px;
+}
+.search-bar {
+  width: 480px;
+  height: 56px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.search-btn {
+  border: none;
+}
+.list-icon {
+  color: black;
+}
+
+/* cards css */
+.market-place-card {
+  width: 360px;
+  height: 532px;
+  position: relative;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.card-time {
+  position: absolute;
+  width: 80px;
+  height: 34px;
+  top: 8px;
+  left: 272px;
+  color: #191b23;
+  padding: 6px, 8px, 6px, 8px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.card-like {
+  position: absolute;
+  width: 64px;
+  height: 36px;
+  top: 478px;
+  left: 280px;
+  color: #191b23;
+  padding: 6px, 8px, 6px, 8px;
+  border-radius: 10px;
+  background-color: #ebedf2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.card-time p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.pricing-panel {
+  margin-left: 8px;
+}
+.bnb-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.ant-flex-gap-middle {
+  gap: 2px;
+}
+.price {
+  margin-left: 32px;
+}
+@media (max-width: 579px) {
+  .filter-panel-container {
+    margin-bottom: 105px;
+  }
+}
