@@ -2,6 +2,8 @@ import React from "react";
 import "./HomePage.css";
 import CreateAndSellCard from "./CreateAndSellCard";
 import { Col, Row } from "antd";
+import VideoViewerCard from "./VideoViewerCard";
+import DisplayAvatar from "./DisplayAvatar";
 const HomePage = () => {
   return (
     <Row
@@ -11,6 +13,8 @@ const HomePage = () => {
     >
       <Col>
         <CreateAndSellCard />
+        <VideoViewerCard />
+        <DisplayAvatar />
       </Col>
     </Row>
   );
