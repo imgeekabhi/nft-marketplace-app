@@ -1,15 +1,9 @@
 import React from "react";
-import { Avatar, Carousel, Flex } from "antd";
-import CarouselBg from "../../../Images/CarouselBackground.png";
+import { Carousel } from "antd";
 import CarouselUser from "./CarouselUser";
-import AvatarImg from "../../../Images/avatar.png";
+
 import "../HomePage.css";
-import {
-  LeftCircleFilled,
-  LeftCircleOutlined,
-  RightCircleFilled,
-  RightCircleOutlined,
-} from "@ant-design/icons";
+import { LeftCircleFilled, RightCircleFilled } from "@ant-design/icons";
 const CustomPrevArrow = (props) => {
   const { onClick } = props;
   return (

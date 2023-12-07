@@ -1,7 +1,7 @@
 import React from "react";
 import TopSellerCards from "./TopSellerCards";
 import "../HomePage.css";
-import { Col, Flex, Radio, Row, Space } from "antd";
+import { Col, Flex, Radio, Row } from "antd";
 import { RightOutlined } from "@ant-design/icons";
 
 const TopSeller = () => {
@@ -20,7 +20,7 @@ const TopSeller = () => {
             30 days
           </Radio.Button>
         </Radio.Group>
-        <a href="!#" className="seeAllBtn">
+        <a href="/#" className="seeAllBtn">
           See all
           <span>
             <RightOutlined />

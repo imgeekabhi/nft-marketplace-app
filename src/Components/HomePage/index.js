@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 import CreateAndSellCard from "./CreateAndSellCard";
-import { Button, Col, Flex, Row, Space } from "antd";
+import { Button, Col, Flex, Row } from "antd";
 import VideoViewerCard from "./VideoViewerCard";
 import DisplayAvatar from "./DisplayAvatar";
 import DownloadApp from "./DownloadApp";

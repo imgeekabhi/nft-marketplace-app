@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../HomePage.css";
-import { Button, Carousel, Flex, Space } from "antd";
+import { Carousel, Flex, Space } from "antd";
 import MarketPlaceCard from "../../MarketPlace/MarketPlaceCard";
 import {
   LeftCircleFilled,
@@ -41,7 +41,7 @@ const CardSlider = () => {
     <div className="card-slider-container">
       <Flex className="feature-flex-box" align="center" justify="space-between">
         <h2>Featured</h2>
-        <a href="#">
+        <a href="/#">
           See all
           <span>
             <RightOutlined />

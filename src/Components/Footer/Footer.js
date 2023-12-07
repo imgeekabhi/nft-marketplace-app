@@ -7,7 +7,6 @@ import {
   GithubFilled,
   GoogleSquareFilled,
   InstagramFilled,
-  InstagramOutlined,
   LinkedinFilled,
   TwitterSquareFilled,
 } from "@ant-design/icons";
@@ -34,20 +33,20 @@ const FooterLayout = () => {
               design4me@gmail.com
             </a>
 
-            <a className="subscribe-anchor" href="#">
+            <a className="subscribe-anchor" href="/#">
               Subscribe and get news
             </a>
             <Input className="email-input-field" placeholder="Email" />
 
             <ul className="redirect-links">
               <li>
-                <a href="#">Privacy policy</a>
+                <a href="/#">Privacy policy</a>
               </li>
               <li>
-                <a href="#">Term of service</a>
+                <a href="/#">Term of service</a>
               </li>
               <li>
-                <a href="#">Language</a>
+                <a href="/#">Language</a>
               </li>
             </ul>
           </div>
@@ -70,7 +69,7 @@ const FooterLayout = () => {
             </Breadcrumb>
             <ul className="social-links">
               <li>
-                <a className="footer-link" href="#">
+                <a className="footer-link" href="/#">
                   <InstagramFilled
                     className="social-icon"
                     name="logo-instagram"
@@ -78,7 +77,7 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <a className="footer-link" href="/#">
                   <LinkedinFilled
                     className="social-icon"
                     name="logo-linkedin"
@@ -86,7 +85,7 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <a className="footer-link" href="/#">
                   <FacebookFilled
                     className="social-icon"
                     name="logo-facebook"
@@ -94,7 +93,7 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <a className="footer-link" href="/#">
                   <TwitterSquareFilled
                     className="social-icon"
                     name="logo-twitter"
@@ -102,12 +101,12 @@ const FooterLayout = () => {
                 </a>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <a className="footer-link" href="/#">
                   <GithubFilled className="social-icon" name="logo-gihub" />
                 </a>
               </li>
               <li>
-                <a className="footer-link" href="#">
+                <a className="footer-link" href="/#">
                   <GoogleSquareFilled
                     className="social-icon"
                     name="logo-google"

@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from "react";
 import { Menu, Grid, Breadcrumb } from "antd";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-const SubMenu = Menu.SubMenu;
-const { Item } = Menu;
 
 const { useBreakpoint } = Grid;
 

@@ -1,12 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import FooterLayout from "./Components/Footer/Footer";
 import Login from "./Components/LoginPage/Login";
 import HomePage from "./Components/HomePage";
 import Navbar from "./Components/Navbar";
 import MarketPlace from "./Components/MarketPlace";
-import FirstPage from "./Components/HomePage/FirstPage";
-import Layout from "./Components/Layout";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <>

@@ -2,7 +2,7 @@ import React from "react";
 import "./MarketPlace.css";
 import FilterPanel from "./FilterPanel";
 import { Content } from "antd/es/layout/layout";
-import { Col, Row, Space } from "antd";
+import { Col, Row } from "antd";
 import MarketPlaceCard from "./MarketPlaceCard";
 const MarketPlace = () => {
   return (

@@ -1,4 +1,4 @@
-import { Button, Col, Flex, Row, Space } from "antd";
+import { Button, Col, Flex, Row } from "antd";
 import React from "react";
 import NftCarousel from "./NftCarousel";
 import { PlayCircleFilled } from "@ant-design/icons";
@@ -24,7 +24,7 @@ const FirstPage = () => {
         </div>
         <div className="first-page-footer">
           <PlayCircleFilled className="play-btn" />
-          <a href="#">Learn more about BNB</a>
+          <a href="/#">Learn more about BNB</a>
         </div>
       </Col>
       <Col

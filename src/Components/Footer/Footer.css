@@ -1,17 +1,12 @@
 /* css for both columns */
 .footer {
   height: 610px;
-  /* border: 1px solid black; */
   background-color: #fff;
-}
-.col1 {
-  /* border: 1px solid black; */
 }
 
 /* left column css */
 
 .col1-container {
-  /* border: 1px solid black; */
   width: 100%;
   max-width: 500px;
   display: flex;
@@ -71,9 +66,7 @@
   text-align: left;
   color: #828282;
 }
-/* right column css */
 .col2 {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,7 +74,6 @@
   text-align: center;
 }
 .col2-container {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -101,15 +93,7 @@
   letter-spacing: 0px;
   color: #000;
 }
-/* .social-links {
-  list-style: none;
-  display: flex;
-  gap: 72px;
-}
-.social-icon {
-  font-size: 32px;
-  color: #333;
-} */
+
 .copyright p {
   font-family: Lato;
   font-size: 17px;
@@ -124,8 +108,8 @@
 .social-links {
   list-style: none;
   display: flex;
-  justify-content: center; /* Center the items horizontally */
-  gap: 40px; /* Adjust the space between items */
+  justify-content: center;
+  gap: 40px;
 }
 
 .social-icon {

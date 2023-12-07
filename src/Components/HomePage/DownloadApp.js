@@ -3,8 +3,7 @@ import GooglePlay from "../../Images/GoogleBadge.png";
 import AppleStore from "../../Images/AppleBadge.png";
 import MaskGroup from "../../Images/MaskGroup.png";
 
-import { Flex, Typography } from "antd";
-const { Title, Text, Paragraph } = Typography;
+import { Flex } from "antd";
 
 const DownloadApp = () => {
   return (

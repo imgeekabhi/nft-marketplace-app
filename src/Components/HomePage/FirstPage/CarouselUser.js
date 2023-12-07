@@ -1,4 +1,4 @@
-import { Avatar, Flex, Space } from "antd";
+import { Avatar } from "antd";
 import React from "react";
 import AvatarImg from "../../../Images/avatar.png";
 import "../HomePage.css";

@@ -3,14 +3,9 @@ import { Col, Flex, Layout, Row } from "antd";
 import "./Login.css";
 import Barcode from "../../Images/Barcode.png";
 import { Typography } from "antd";
-import { Form, Input, Button, Checkbox, Card } from "antd";
-import {
-  UserOutlined,
-  LockOutlined,
-  AppleFilled,
-  GoogleOutlined,
-} from "@ant-design/icons";
-const { Title, Text, Link } = Typography;
+import { Form, Input, Button } from "antd";
+import { AppleFilled, GoogleOutlined } from "@ant-design/icons";
+const { Text } = Typography;
 const { Content } = Layout;
 const Login = () => {
   const onFinish = (values) => {
@@ -59,7 +54,7 @@ const Login = () => {
               <Form.Item>
                 <Text className="login-forgot">
                   Forget password?&nbsp;
-                  <a href="">Tap here</a>
+                  <a href="/#">Tap here</a>
                 </Text>
               </Form.Item>
               <Form.Item>
@@ -101,7 +96,7 @@ const Login = () => {
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Text className="no-account-btn">
                   Don’t have an account yet?&nbsp;
-                  <a href="">Tap here</a>
+                  <a href="/#">Tap here</a>
                 </Text>
               </Form.Item>
             </Form>

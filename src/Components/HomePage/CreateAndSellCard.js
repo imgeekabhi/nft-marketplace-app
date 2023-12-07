@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Divider, Row, Space, Typography } from "antd";
+import { Card, Col, Row, Space, Typography } from "antd";
 import "./HomePage.css";
 
 const { Title, Text } = Typography;

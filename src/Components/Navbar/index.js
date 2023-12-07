@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import LeftMenu from "./LeftMenu";
 import RightMenu from "./RightMenu";
 import { Drawer, Menu } from "antd";
@@ -44,7 +44,7 @@ const Navbar = () => {
               {menuItems.map((item) => {
                 return (
                   <Menu.Item key={item}>
-                    <a href="#">{item}</a>
+                    <a href="/#">{item}</a>
                   </Menu.Item>
                 );
               })}

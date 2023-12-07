@@ -1,6 +1,5 @@
 import React from "react";
 import "./MarketPlace.css";
-import FilterImage from "../../Images/filter.png";
 import ColumnImage from "../../Images/column.png";
 import ListImage from "../../Images/List.png";
 import { Button, Dropdown, Flex, Input, Space, Grid } from "antd";
@@ -47,7 +46,6 @@ const FilterPanel = () => {
         wrap={screens.xs ? "wrap" : "nowrap"}
       >
         <Button className="filter-btn">
-          {/* <img className="filter-icons" src={FilterImage} alt="FilterImage" /> */}
           <FilterOutlined />
           Filters
         </Button>
