@@ -122,17 +122,377 @@
 .avtar-container-space {
   justify-content: center;
 }
-/* Media query for responsiveness - adjust breakpoint as needed */
 @media (max-width: 768px) {
   .avatar-container {
-    /* Adjust styling for smaller screens */
     justify-content: center;
-    padding: 10px; /* Add spacing or padding for better readability */
+    padding: 10px;
   }
 }
 
 /* ---------------------------------------------------------- */
 /* ---------------------------------------------------------- */
 /* download app component  */
+.downloadAppContainer {
+  width: 100%;
+  max-width: 1140px;
+  background-color: #191b23;
+  border-radius: 15px;
+}
+.textArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+  padding: 40px;
+}
+.imgArea {
+  padding: 40px 40px 0px 40px;
+}
+.downloadAppTitle {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fff;
+}
+.downloadAppPara {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.textArea h2 {
+  margin-bottom: 10px;
+}
+
+.textArea p {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .downloadAppContainer {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .textArea {
+    margin-bottom: 20px;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .imgArea img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* ---------------------------------------------------------- */
+/* top seller component  */
+/* ---------------------------------------------------------- */
+.topSellerFlexBox {
+  margin-bottom: 40px;
+}
+.topSellerHeading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+}
+
+.seeAllBtn {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: black;
+}
+.right-arrow {
+  font-size: 20px;
+  color: black;
+}
+/* ---------------------------------------------------------- */
 
 /* ---------------------------------------------------------- */
+/* top seller card  */
+/* ---------------------------------------------------------- */
+.topSellerCardContainer {
+  margin-bottom: 24px;
+}
+.personDetails {
+  gap: 0px;
+}
+.cardRow {
+  display: flex;
+  column-gap: 30px;
+}
+.cardRow h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.personDetails h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #191b23;
+}
+.personDetails p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #4f4f4f;
+}
+.pricing-panel {
+  margin-left: 8px;
+}
+.pricing-panel-outside {
+  display: flex;
+  gap: 0;
+}
+.days-filter-btns {
+  background-color: #ebedf2;
+  padding: 5px;
+  border-radius: 10px;
+}
+.days-filter-btn {
+  border: none;
+}
+.days-filter-btns
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background-color: #7b61ff;
+  border-color: #7b61ff;
+  color: white;
+  padding: 6px, 8px, 6px, 8px;
+  border-radius: 10px;
+}
+.days-filter-btns .ant-radio-button-wrapper:hover {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+}
+
+/* .price {
+  margin-left: 32px;
+}
+*/
+@media screen and (max-width: 460px) {
+  .topSellerCardContainer {
+    width: 442px;
+  }
+}
+@media screen and (max-width: 538px) {
+  .topSellerFlexBox {
+    width: 553px;
+  }
+}
+
+/* ---------------------------------------------------------- */
+/* First Page css  */
+/* ---------------------------------------------------------- */
+.contentStyle {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  color: #fff;
+  background-image: url("../../Images/CarouselBackground.png");
+  background-size: cover;
+}
+
+.overlayContent {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.overlayContent div {
+  margin-left: 20px;
+  width: 500px;
+}
+.overlayContent h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.overlayContent span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.overlayContent p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.ant-carousel .slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.ant-carousel .slick-dots {
+  right: 46%;
+  bottom: 12%;
+}
+.right-arrow,
+.left-arrow {
+  font-size: 50px;
+  color: white;
+}
+
+.contentStyle {
+  position: relative; /* Set position to relative */
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  bottom: 80px; /* Adjust the distance from the bottom */
+}
+
+.custom-prev-arrow {
+  right: 260px;
+}
+
+.custom-next-arrow {
+  right: 200px;
+}
+@media screen and (max-width: 1300px) {
+  .custom-prev-arrow {
+    right: 230px;
+  }
+
+  .custom-next-arrow {
+    right: 170px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .custom-prev-arrow {
+    right: 180px;
+  }
+
+  .custom-next-arrow {
+    right: 120px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .custom-prev-arrow {
+    right: 150px;
+  }
+
+  .custom-next-arrow {
+    right: 90px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .custom-prev-arrow {
+    right: 120px;
+  }
+
+  .custom-next-arrow {
+    right: 60px;
+  }
+}
+/* ---------------------------------------------------------- */
+/* first-page-left-container */
+.first-page-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.first-page-left-container div {
+  width: 500px;
+  align-self: flex-end;
+  margin-right: 60px;
+}
+.first-page-left-container div h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+}
+.first-page-left-container div p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #232632;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.btn-explore,
+.btn-create {
+  height: 56px;
+  width: 170px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.btn-explore {
+  background-color: #7b61ff;
+  color: white;
+}
+.play-btn {
+  font-size: 30px;
+}
+.first-page-footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.first-page-footer a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #232632;
+  text-decoration: underline;
+}
+.horizontal-line {
+  border-color: #eaecf245;
+  margin-top: 125px;
+  margin-bottom: 95px;
+}
+
+@media screen and (max-width: 1150px) {
+  .first-page-left-container div {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .first-page-left-container div {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .first-page-left-container div {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .first-page-left-container div {
+    width: 500px;
+    align-self: auto;
+  }
+  .first-page-left-container div p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .horizontal-line {
+    margin-top: 65px;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .first-page-left-container div {
+    width: 350px;
+  }
+}

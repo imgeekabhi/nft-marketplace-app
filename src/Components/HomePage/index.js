@@ -4,6 +4,8 @@ import CreateAndSellCard from "./CreateAndSellCard";
 import { Col, Row } from "antd";
 import VideoViewerCard from "./VideoViewerCard";
 import DisplayAvatar from "./DisplayAvatar";
+import DownloadApp from "./DownloadApp";
+import TopSeller from "./TopSeller";
 const HomePage = () => {
   return (
     <Row
@@ -13,8 +15,10 @@ const HomePage = () => {
     >
       <Col>
         <CreateAndSellCard />
+        <TopSeller />
         <VideoViewerCard />
         <DisplayAvatar />
+        <DownloadApp />
       </Col>
     </Row>
   );
