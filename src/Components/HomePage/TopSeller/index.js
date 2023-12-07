@@ -23,7 +23,7 @@ const TopSeller = () => {
         <a href="!#" className="seeAllBtn">
           See all
           <span>
-            <RightOutlined className="right-arrow" />
+            <RightOutlined />
           </span>
         </a>
       </Flex>

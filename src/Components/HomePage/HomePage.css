@@ -1,9 +1,39 @@
+.headings-btw-comp {
+  max-width: 485px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.headings-btw-comp h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+}
+.headings-btw-comp p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: rgba(186, 178, 178, 0.86);
+}
+.get-started-btn-container {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.btn-create {
+  border: 2px solid black;
+}
 /* ---------------------------------------------------------- */
 /* creat and sell card  */
 .card-container {
   width: 100%;
   max-width: 1140px;
   background-color: #191b23;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .card-title {
   font-size: 40px;
@@ -137,6 +167,7 @@
   max-width: 1140px;
   background-color: #191b23;
   border-radius: 15px;
+  margin-bottom: 100px;
 }
 .textArea {
   display: flex;
@@ -403,7 +434,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
 }
 .first-page-left-container div {
   width: 500px;
@@ -496,3 +526,40 @@
     width: 350px;
   }
 }
+/* ---------------------------------------------------------- */
+/* card slider component */
+
+/* ---------------------------------------------------------- */
+.card-slider-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.feature-flex-box {
+  margin-bottom: 35px;
+}
+.feature-flex-box h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+}
+
+.feature-flex-box a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: black;
+}
+.slider-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 45px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.left-slider-btn,
+.right-slider-btn {
+  font-size: 50px;
+}
+/* ---------------------------------------------------------- */

@@ -28,7 +28,7 @@ const FirstPage = () => {
         </div>
       </Col>
       <Col
-        style={{ border: "1px solid black", height: "900px" }}
+        style={{ height: "900px" }}
         xs={{ span: 24 }}
         sm={{ span: 24 }}
         md={{ span: 24 }}
